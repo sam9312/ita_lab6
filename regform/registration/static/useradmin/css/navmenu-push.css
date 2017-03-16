@@ -1,0 +1,43 @@
+html {
+  min-width: 270px;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background: #34495E;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  padding: 50px 0 0 0;
+  background: #34495E;
+}
+
+.navbar-toggle {
+  float: left;
+  margin-left: 15px;
+  background: #34495E;
+}
+.navmenu {
+  background: #34495E;
+}
+
+@media (min-width: 0) {
+  .navbar-toggle {
+    display: block; /* force showing the toggle */
+	background: #34495E;
+	
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    padding: 0;
+	background: #34495E;
+  }
+  .navbar {
+    right: auto;
+    background: #34495E;
+    border: none;
+  }
+}
